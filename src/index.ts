@@ -1,1 +1,1 @@
-console.log("test Inventory M API");
+console.log("API running...");
