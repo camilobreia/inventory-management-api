@@ -1,6 +1,7 @@
 {
   "name": "inventory-management-api",
   "version": "1.0.0",
+  "type": "module",
   "description": "Enterprise Inventory Management REST API built with Node.js, TypeScript, Express, Prisma, PostgreSQL, Redis and Docker.",
   "scripts": {
     "dev": "tsx watch src/index.ts",
@@ -22,12 +23,17 @@
   "homepage": "https://github.com/camilobreia/inventory-management-api#readme",
   "devDependencies": {
     "@eslint/js": "^10.0.1",
-    "@types/node": "^26.0.1",
+    "@types/node": "^26.2.0",
+    "dotenv": "^17.4.2",
     "eslint": "^10.6.0",
     "eslint-config-prettier": "^10.1.8",
     "prettier": "^3.9.4",
+    "prisma": "^7.9.1",
     "tsx": "^4.22.4",
     "typescript": "^6.0.3",
     "typescript-eslint": "^8.62.1"
+  },
+  "dependencies": {
+    "@prisma/client": "^7.9.1"
   }
 }
